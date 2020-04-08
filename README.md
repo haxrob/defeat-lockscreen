@@ -11,7 +11,7 @@ It calls [SetThreadExecutionState](https://docs.microsoft.com/en-us/windows/win3
 On Linux:
 ```
 apt install cc-mingw-w64
-x86_64-w64-mingw32-gcc main.c -o main.txt
+x86_64-w64-mingw32-gcc main.c -o main.exe
 ```
 
 # Running
