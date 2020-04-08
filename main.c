@@ -19,7 +19,7 @@ int main()
     
     while(1)
     {
-        // credit: https://superuser.com/revisions/1530942/3
+        // See: https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-setthreadexecutionstate
         result = SetThreadExecutionState(ES_SYSTEM_REQUIRED | ES_DISPLAY_REQUIRED | ES_CONTINUOUS);
         
         // Sleep for 20 seconds
