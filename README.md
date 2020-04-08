@@ -1,11 +1,13 @@
 # defeat-lockscreen
 Prevents Windows lock screen even if it's enforced via group policy
 
-If it is not possible to change the lock screen settings in Windows due to being enforced with group policy, running this program will ensure the computer will never lock the screen while it is running.
+If it is not possible to change the lock screen settings in Windows due to being enforced with group policy, running this program will ensure the computer will never lock the screen while it is running. 
 
 It calls [SetThreadExecutionState](https://docs.microsoft.com/en-us/windows/win32/api/winbase/nf-winbase-setthreadexecutionstate) which:
 
 > Enables an application to inform the system that it is in use, thereby preventing the system from entering sleep or turning off the display while the application is running.
+
+I feel this is a better approach to other solutions that move the mouse cursor at intervals using powershell, vbs, wscript etc.
 
 # Compiling 
 On Linux:
