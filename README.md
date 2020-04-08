@@ -20,3 +20,7 @@ x86_64-w64-mingw32-gcc main.c -o main.exe
 Just double click!
 
 _Note application is set to hide and not appear in the taskbar, so to exit, kill it in the task manager_
+
+## Credit
+Part of the original code for calling `SetThreadExecutionState` was borrowed from:
+https://superuser.com/revisions/1530942/3
