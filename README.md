@@ -7,7 +7,7 @@ It calls [SetThreadExecutionState](https://docs.microsoft.com/en-us/windows/win3
 
 > Enables an application to inform the system that it is in use, thereby preventing the system from entering sleep or turning off the display while the application is running.
 
-I feel this is a better approach to other solutions that move the mouse cursor at intervals using powershell, vbs, wscript etc.
+I feel this is a better approach to other solutions that move the mouse cursor or generating keyboard events at intervals using powershell, vbs, wscript etc.
 
 # Compiling 
 On Linux:
